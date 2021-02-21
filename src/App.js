@@ -15,22 +15,18 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route
-            exact
             path='https://blank619.github.io/temple/'
-            component={Home}
+            component={Trusties}
           />
           <Route
-            exact
             path='https://blank619.github.io/oldphotos'
             component={LightboxPage}
           />
           <Route
-            exact
             path='https://blank619.github.io/templephotos'
             component={TemplePhotos}
           />
           <Route
-            exact
             path='https://blank619.github.io/trusties'
             component={Trusties}
           />
