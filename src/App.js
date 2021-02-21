@@ -14,23 +14,11 @@ function App() {
 
       <BrowserRouter>
         <Switch>
-          <Route
-            path='https://blank619.github.io/temple/'
-            component={Trusties}
-          />
-          <Route
-            path='https://blank619.github.io/oldphotos'
-            component={LightboxPage}
-          />
-          <Route
-            path='https://blank619.github.io/templephotos'
-            component={TemplePhotos}
-          />
-          <Route
-            path='https://blank619.github.io/trusties'
-            component={Trusties}
-          />
-          <Redirect to='https://blank619.github.io/temple/' />
+          <Route path='/' component={Home} />
+          <Route path='/oldphotos' component={LightboxPage} />
+          <Route path='/templephotos' component={TemplePhotos} />
+          <Route path='/trusties' component={Trusties} />
+          <Redirect to='/' />
         </Switch>
       </BrowserRouter>
     </div>
