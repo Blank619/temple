@@ -20,7 +20,7 @@ function Navbarr() {
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='mr-auto'>
-              <Nav.Link href='/'>
+              <Nav.Link href='/home'>
                 <font color={'white'}> Home</font>
               </Nav.Link>
             </Nav>
