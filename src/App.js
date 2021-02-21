@@ -14,10 +14,10 @@ function App() {
 
       <BrowserRouter>
         <Switch>
-          <Route path='/temple/' component={Home} />
-          <Route path='/temple/oldphotos' component={LightboxPage} />
-          <Route path='/temple/templephotos' component={TemplePhotos} />
-          <Route path='/temple/trusties' component={Trusties} />
+          <Route path='/' component={Home} />
+          <Route path='/oldphotos' component={LightboxPage} />
+          <Route path='/templephotos' component={TemplePhotos} />
+          <Route path='/trusties' component={Trusties} />
    
         </Switch>
       </BrowserRouter>
