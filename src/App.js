@@ -18,7 +18,7 @@ function App() {
           <Route path='/temple/oldphotos' component={LightboxPage} />
           <Route path='/temple/templephotos' component={TemplePhotos} />
           <Route path='/temple/trusties' component={Trusties} />
-          <Redirect to='/temple/' />
+   
         </Switch>
       </BrowserRouter>
     </div>
