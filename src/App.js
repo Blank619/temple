@@ -14,7 +14,7 @@ function App() {
 
       <BrowserRouter>
         <Switch>
-          <Route path='/' component={Home} />
+          <Route path='/home' component={Home} />
           <Route path='/oldphotos' component={LightboxPage} />
           <Route path='/templephotos' component={TemplePhotos} />
           <Route path='/trusties' component={Trusties} />
